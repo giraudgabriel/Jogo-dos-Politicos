@@ -16,7 +16,10 @@ namespace Joguinho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            using (var formPrincipal = new FormPrincipal())
+            {
+                Application.Run(formPrincipal);
+            }
         }
     }
 }
