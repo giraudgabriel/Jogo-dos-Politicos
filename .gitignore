@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/Joguinho/bin/Debug
+/Joguinho/obj/Debug
+/Joguinho/obj/Release/Joguinho.csproj.CoreCompileInputs.cache
